@@ -129,7 +129,8 @@ Save the database schema as a Postgres file named crowdfunding_db_schema.sql, an
 
 Create a new Postgres database, named crowdfunding_db.
 
-Using the database schema, create the tables in the correct order to handle the foreign keys. (Correct orders is Campaign, Category, Contacts, then Subcategory)
+Using the database schema, create the tables in the correct order to handle the foreign keys. 
+**Correct order is Campaign, Category, Contacts, then Subcategory**
 
 Verify the table creation by running a SELECT statement for each table.
 
