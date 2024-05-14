@@ -37,9 +37,6 @@ A "category" column that contains only the category titles
 The following image shows this category DataFrame:
 
 ![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/d84df0f1-bac4-4805-ad82-7ffdf4593595)
-![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/d84df0f1-bac4-4805-ad82-7ffdf4593595)
-
-
 
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
@@ -51,6 +48,7 @@ A "subcategory" column that contains only the subcategory titles
 
 The following image shows this subcategory DataFrame:
 
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/91be4228-3265-4e68-89ed-c832d772b3e7)
 
 Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
@@ -87,6 +85,7 @@ The "subcategory_id" column, with the unique identification numbers matching tho
 
 The following image shows this campaign DataFrame:
 
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/41bb20e6-1128-4d91-b742-7110621e93c3)
 
 Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
@@ -117,6 +116,7 @@ Split each "name" column value into a first and a last name, and place each in a
 Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
 Check that your final DataFrame resembles the one in the following image:
 
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/2e03be61-985f-4846-830f-dc2a66a0920a)
 
 # Create the Crowdfunding Database
 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
@@ -129,10 +129,19 @@ Save the database schema as a Postgres file named crowdfunding_db_schema.sql, an
 
 Create a new Postgres database, named crowdfunding_db.
 
-Using the database schema, create the tables in the correct order to handle the foreign keys.
+Using the database schema, create the tables in the correct order to handle the foreign keys. (Correct orders is Campaign, Category, Contacts, then Subcategory)
 
 Verify the table creation by running a SELECT statement for each table.
 
 Import each CSV file into its corresponding SQL table.
 
 Verify that each table has the correct data by running a SELECT statement for each.
+
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/09fecc9e-498b-4c11-ae72-87cfbe646aea)
+
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/e13ef4b4-ce86-44aa-ac57-604463944444)
+
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/75e32ef4-d549-4822-9ba5-a613f707ca6c)
+
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/47b2ea3e-2a9a-4746-a2ac-5f207612e3e1)
+
