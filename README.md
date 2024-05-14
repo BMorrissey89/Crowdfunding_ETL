@@ -36,6 +36,10 @@ A "category" column that contains only the category titles
 
 The following image shows this category DataFrame:
 
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/d84df0f1-bac4-4805-ad82-7ffdf4593595)
+![image](https://github.com/BMorrissey89/Crowdfunding_ETL/assets/31460184/d84df0f1-bac4-4805-ad82-7ffdf4593595)
+
+
 
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
